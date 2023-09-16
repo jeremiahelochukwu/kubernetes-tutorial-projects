@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongo-express-configmap
+data:
+  # property-like keys; each key maps to a simple value
+  database_url: mongodb-service # the database url name is gotten from the service name of the [ metadata: name ] in the service configuration file of mongodb deployment service file

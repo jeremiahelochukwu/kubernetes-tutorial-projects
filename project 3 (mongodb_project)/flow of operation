@@ -1,0 +1,13 @@
+# the step by step flow of this kubernetes project
+----
+
+- crete a mongodb secret config file
+
+- crete a mongodb deployment config file:
+    create a mongodb-service.yaml file
+
+- crete a mongo-express configmap file
+
+- crete a mongo-express deployment file:
+    create a mongo-express-service.yaml file
+        
